@@ -216,6 +216,9 @@ exclude:
   - "*.config.js"
   - package*.json
 
+jekyll-archives:
+  enabled: []
+
 # jekyll-archives:
 #   enabled: [categories, tags]
 #   layouts:
