@@ -28,7 +28,7 @@
               <span>{{ page.title }}</span>
             {% endif %}
 
-          {% elsif page.layout == 'category' or page.layout == 'tag' or page.url == '/' %}
+          {% elsif page.layout == 'category' or page.layout =='blog' or page.layout == 'tag' or page.url == '/' %}
             <span>
               <a href="{{ item | append: '/' | relative_url }}">
                 {{- site.data.locales[include.lang].tabs[item] | default: page.title -}}
